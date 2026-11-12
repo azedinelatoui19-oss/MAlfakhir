@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مناحل الفاخر | El-Fakhire Apiaries</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #d97706;
+            --primary-dark: #b45309;
+            --bg: #fffbeb;
+            --card-bg: #ffffff;
+            --text: #1f2937;
+            --text-muted: #6b7280;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cairo', sans-serif;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 20px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(217, 119, 6, 0.1);
+            overflow: hidden;
+            border: 1px solid #fde68a;
+        }
+        .header {
+            background: linear-gradient(135deg, #f59e0b, #b45309);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .header h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 5px;
+        }
+        .header p {
+            font-size: 1.05rem;
+            opacity: 0.95;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 14px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            margin-top: 12px;
+        }
+        .content {
+            padding: 30px 25px;
+        }
+        .section {
+            margin-bottom: 28px;
+        }
+        .section h2 {
+            color: var(--primary-dark);
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #fef3c7;
+            padding-bottom: 6px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 12px;
+        }
+        .card {
+            background: #fffbeb;
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid #fde68a;
+        }
+        .card strong {
+            display: block;
+            color: var(--primary-dark);
+            margin-bottom: 4px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 12px;
+            font-weight: 700;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background-color: var(--primary-dark);
+        }
+        .btn-outline {
+            background-color: transparent;
+            color: var(--primary-dark);
+            border: 2px solid var(--primary);
+        }
+        .btn-outline:hover {
+            background-color: #fef3c7;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            background: #fefce8;
+            border-top: 1px solid #fde68a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>مناحل الفاخر</h1>
+            <p>El-Fakhire Apiaries | Agro-Alfakhir</p>
+            <span class="badge">📍 حمام قرقور، ولاية سطيف - الجزائر</span>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>من نحن</h2>
+                <p>
+                    مؤسسة فلاحية متخصصة في تربية النحل، إنتاج العسل الطبيعي النقي، وتثمين وتحويل منتجات الخلية وفق أعلى معايير الجودة والابتكار.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>منتجاتنا وخدماتنا</h2>
+                <div class="grid">
+                    <div class="card">
+                        <strong>🍯 العسل الطبيعي</strong>
+                        إنتاج أجود أنواع العسل الطبيعي المصفى والمفحوص مخبرياً.
+                    </div>
+                    <div class="card">
+                        <strong>🕯️ شمع النحل ومنتجات الخلية</strong>
+                        تجهيز شمع الأساس النقي، الشموع الطبيعية، ومنتجات العناية الطبيعية.
+                    </div>
+                    <div class="card">
+                        <strong>🔬 الابتكار والتطوير</strong>
+                        تطوير تقنيات تربية النحل والمشاركة في المعارض والمؤتمرات الدولية (مثل Africa Bee Expo).
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>تواصل معنا وروابطنا</h2>
+                <div class="links">
+                    <a href="https://rucheelfakhir.foorweb.dz" target="_blank" class="btn">🛒 المتجر الإلكتروني الرسمي</a>
+                    <a href="tel:+213000000000" class="btn btn-outline">📞 اتصل بنا مباشرة</a>
+                    <a href="mailto:contact@elfakhire.dz" class="btn btn-outline">✉️ البريد الإلكتروني</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2026 مناحل الفاخر (El-Fakhire) - جميع الحقوق محفوظة
+        </div>
+    </div>
+</body>
+</html>
